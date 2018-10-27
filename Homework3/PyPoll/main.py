@@ -73,14 +73,16 @@ print("---------------------")
 #with 0, not 1.
 Counter3 = len(candidates) - 1 
 
+#create a dictonary where the candidate names are they keys and the number of votes per candidate are the values
+dictionary = collections.Counter(votes)
+
 #this while loop will run for as many times as the lenght of the candidates list
 #the votes list is handed to the collections.counter method for generating a 
 #libray with the candidate names as keys and the count of names as values
 #the loop prints the candidates name, calculates the percentage and print the actual value
 #all within the print statement     
 while Counter3 != -1:
-    #create a dictonary where the candidate names are they keys and the number of votes per candidate are the values
-    dictionary = collections.Counter(votes)
+    
     #get the value from the dictonary for candidate index Counter3.
     variable = dictionary.get(candidates[Counter3], None)
     print(f"{candidates[Counter3]}: {(variable*100)/TotalVotes}% ({str(variable)})")
