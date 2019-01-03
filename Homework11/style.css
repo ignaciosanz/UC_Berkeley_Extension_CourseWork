@@ -1,0 +1,33 @@
+#copyright{
+	margin-top: 80px;
+	text-align: center;
+	background: gray;
+	border-top: 3px solid black;
+	padding: 20px;
+}
+
+body {background-color: #abb0b2;}
+
+#latitude_img {
+	float: left;
+	padding-right: 10px;
+}
+
+#main_text {
+	background-color: white;
+}
+.col-md-12{
+	background-color: white;
+	padding: 10px 10px 10px;
+	border: 20px;
+}
+
+.pull-left{
+	background-color: white;
+	padding: 25px 50px 75px;
+}
+
+#lattitude {
+	background:#46f299;
+	padding: 10px;
+}
