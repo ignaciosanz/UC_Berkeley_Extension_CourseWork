@@ -1,0 +1,10 @@
+
+#weather {
+	border-style: solid;
+	padding: 20px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;      
+}
