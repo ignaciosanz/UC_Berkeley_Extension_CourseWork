@@ -1,0 +1,8 @@
+table,tr,td,th{
+
+  border:5px solid white;
+  border-collapse:collapse;
+  vertical-align:middle;
+  background:black;
+ 
+}
