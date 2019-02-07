@@ -11,6 +11,8 @@ from flask import Flask, jsonify
 
 # database setup
 engine = create_engine("sqlite:///hawaii.sqlite")
+# app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/bellybutton.sqlite"
+
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
